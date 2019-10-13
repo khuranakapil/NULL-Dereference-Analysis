@@ -1,0 +1,134 @@
+BB8 -> BB9:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB3 -> BB4:
+v3 -> {[new0]}
+
+BB14 -> BB15:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+v18 -> {[new31]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v16 -> {[new28]}
+v7 -> {[NULL], [new7]}
+
+BB9 -> BB10:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB4 -> BB5:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB15 -> BB16:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+v18 -> {[new31]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v16 -> {[new28]}
+v7 -> {[NULL], [new7]}
+
+BB10 -> BB11:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB5 -> BB6:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB12 -> BB4:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB0 -> BB1:
+
+BB11 -> BB12:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB6 -> BB7:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB1 -> BB2:
+v3 -> {[new0]}
+
+BB12 -> BB13:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB7 -> BB8:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v7 -> {[NULL], [new7]}
+
+BB2 -> BB3:
+v3 -> {[new0]}
+
+BB13 -> BB14:
+v3 -> {[new0]}
+v8 -> {[NULL]}
+[new0].next -> {[new7]}
+[new7].next -> {[NULL], [new7]}
+v14 -> {[NULL], [new0], [new7]}
+v5 -> {[new7]}
+v16 -> {[new28]}
+v7 -> {[NULL], [new7]}
+
+

@@ -1,0 +1,135 @@
+Columns:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}}
+c0: {}
+
+
+
+
+
+bar2:
+
+
+
+
+BB6 -> BB7:
+
+c1: {}
+
+
+BB4 -> BB5:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}, v6 -> {bar2.new0}, v8 -> {bar2.new4}}
+
+
+BB3 -> BB4:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}, v6 -> {bar2.new0}, v8 -> {bar2.new4}}
+
+
+BB2 -> BB3:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}, v6 -> {bar2.new0}}
+
+
+BB0 -> BB1:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}}
+
+
+BB5 -> BB6:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}, v6 -> {bar2.new0}, v8 -> {bar2.new4}}
+
+
+BB1 -> BB2:
+
+c1: {v2 -> {foo2.new1}, v4 -> {foo2.new5}, v6 -> {bar2.new0}}
+
+
+foo2:
+
+
+
+
+BB5 -> BB6:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB4 -> BB5:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB3 -> BB4:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB12 -> BB13:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB1 -> BB12:
+
+c0: {}
+
+
+BB2 -> BB3:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB0 -> BB1:
+
+c0: {}
+
+
+BB9 -> BB10:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB11 -> BB12:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB7 -> BB8:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB14 -> BB15:
+
+c0: {}
+
+
+BB8 -> BB9:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB13 -> BB14:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB6 -> BB7:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB13 -> BB2:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+BB10 -> BB11:
+
+c0: {v5 -> {foo2.new1}, v7 -> {foo2.new5}, v10 -> {bar2.new0}}
+
+
+

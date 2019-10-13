@@ -1,0 +1,266 @@
+BB19 -> BB23:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB21 -> BB22:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0]}
+v19 -> {[new52]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB19 -> BB20:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB12 -> BB13:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB18 -> BB5:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB16 -> BB17:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB20 -> BB21:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0]}
+v19 -> {[new52]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB23 -> BB24:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v19 -> {[new52]}
+[new0].data -> {[new52]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB5 -> BB6:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB0 -> BB1:
+
+BB17 -> BB18:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB4 -> BB18:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL]}
+
+BB10 -> BB11:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB13 -> BB14:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB11 -> BB12:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB22 -> BB23:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0]}
+v19 -> {[new52]}
+[new0].data -> {[new52]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB12 -> BB16:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB8 -> BB9:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB18 -> BB19:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB3 -> BB4:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL]}
+
+BB9 -> BB10:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB6 -> BB7:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB7 -> BB8:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB1 -> BB2:
+v4 -> {[new0]}
+
+BB15 -> BB16:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+
+BB2 -> BB3:
+v4 -> {[new0]}
+
+BB14 -> BB15:
+v4 -> {[new0]}
+v6 -> {[NULL]}
+[new0].next -> {[NULL], [new12]}
+v18 -> {[new0], [new12]}
+v8 -> {[new12]}
+[new12].next -> {[NULL], [new12]}
+v10 -> {[new19]}
+[new12].data -> {[new19], [new32]}
+v15 -> {[new32]}
+

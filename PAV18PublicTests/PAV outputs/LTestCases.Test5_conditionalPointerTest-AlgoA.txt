@@ -1,0 +1,58 @@
+BB8 -> BB9:
+v6 -> {[new4]}
+v9 -> {[new4]}
+v4 -> {[new0]}
+
+BB8 -> BB10:
+v6 -> {[new4]}
+v9 -> {[new4], [new0]}
+v4 -> {[new0]}
+
+BB3 -> BB4:
+v6 -> {[new4]}
+v4 -> {[new0]}
+
+BB9 -> BB11:
+v6 -> {[new4]}
+v9 -> {[new4]}
+v4 -> {[new0]}
+
+BB4 -> BB5:
+v6 -> {[new4]}
+v4 -> {[new0]}
+
+BB10 -> BB11:
+v6 -> {[new4]}
+v9 -> {[new4], [new0]}
+v4 -> {[new0]}
+
+BB5 -> BB6:
+v6 -> {[new4]}
+v4 -> {[new0]}
+
+BB5 -> BB7:
+v6 -> {[new4]}
+v4 -> {[new0]}
+
+BB0 -> BB1:
+
+BB11 -> BB12:
+v6 -> {[new4]}
+v9 -> {[new4], [new0]}
+v4 -> {[new0]}
+
+BB6 -> BB8:
+v6 -> {[new4]}
+v4 -> {[new0]}
+
+BB1 -> BB2:
+v4 -> {[new0]}
+
+BB7 -> BB8:
+v6 -> {[new4]}
+v4 -> {[new0]}
+
+BB2 -> BB3:
+v4 -> {[new0]}
+
+

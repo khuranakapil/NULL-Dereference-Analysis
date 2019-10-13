@@ -1,0 +1,6 @@
+1) Please import PAV18PublicTests  into eclipse.
+2) Preferably create new run configurations for each test case. There will be five test cases.
+3) Now the second argument will be the class containing main and the third argument will be the class containing the test case which will be different.
+E.g. /home/stanley/Projects/e0227-null-dereference-analysis/PAV18PublicTests.jar LTestCases/PublicTests LTestCases/Test4 nullDerefTest
+4) Please follow the expected format in the test cases. We have also provided the script (check_AlgoA.py) with which we will test your output. It takes as input two files; the reference and the result. References are given by us. Result would be your file.
+Run  "python check_AlgoA.py referencefile resultfile" 

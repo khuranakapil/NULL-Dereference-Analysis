@@ -1,0 +1,166 @@
+Columns:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}}
+c0: {}
+c2: {}
+
+
+
+
+
+bar1:
+
+
+
+
+BB8 -> BB11:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}}
+
+
+BB15 -> BB16:
+
+c1: {}
+
+
+BB10 -> BB12:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4, bar1.new7}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}}
+
+
+BB1 -> BB2:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}}
+
+
+BB0 -> BB1:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}}
+
+
+BB3 -> BB4:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}}
+
+
+BB13 -> BB14:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {null, foo1.new4, bar1.new7}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}, v18 -> {null}, v17 -> {null}}
+
+
+BB7 -> BB8:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}}
+
+
+BB8 -> BB9:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}}
+
+
+BB9 -> BB10:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4, bar1.new7}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}}
+
+
+BB4 -> BB5:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}}
+
+
+BB2 -> BB3:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}}
+
+
+BB6 -> BB7:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}}
+
+
+BB14 -> BB16:
+
+c1: {}
+
+
+BB13 -> BB15:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {null, foo1.new4, bar1.new7}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}, v18 -> {foo1.new4, bar1.new7}, v17 -> {null}}
+
+
+BB5 -> BB6:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}}
+
+
+BB11 -> BB12:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {null, foo1.new4}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}, v17 -> {null}}
+
+
+BB12 -> BB13:
+
+c1: {v2 -> {foo1.new0}, v3 -> {foo1.new4}, foo1.new0.data -> {null, foo1.new4, bar1.new7}, v5 -> {bar1.new3}, v7 -> {bar1.new7}, v10 -> {}, v13 -> {}, v18 -> {null, foo1.new4, bar1.new7}, v17 -> {null}}
+
+
+foo1:
+
+
+
+
+BB3 -> BB4:
+
+c0: {v3 -> {foo1.new0}, v5 -> {foo1.new4}}
+
+
+BB2 -> BB3:
+
+c0: {v3 -> {foo1.new0}}
+
+
+BB0 -> BB1:
+
+c0: {}
+
+
+BB5 -> BB6:
+
+c0: {v3 -> {foo1.new0}, v5 -> {foo1.new4}, v8 -> {bar1.new7, bar1.new3}, foo1.new0.data -> {null, foo1.new4, bar1.new7}}
+
+
+BB6 -> BB7:
+
+c0: {}
+
+
+BB1 -> BB2:
+
+c0: {v3 -> {foo1.new0}}
+
+
+BB4 -> BB5:
+
+c0: {v3 -> {foo1.new0}, v5 -> {foo1.new4}}
+
+
+random:
+
+
+
+
+BB2 -> BB3:
+
+c2: {}
+
+
+BB1 -> BB2:
+
+c2: {v4 -> {new1}}
+
+
+BB0 -> BB1:
+
+c2: {}
+
+
+

@@ -1,0 +1,38 @@
+BB: 0 to 1
+
+BB: 1 to 2
+
+		v4 -> {new2}
+
+BB: 2 to 3
+
+		v4 -> {new2}
+
+BB: 3 to 5
+
+		v4 -> {new2}
+
+BB: 3 to 4
+
+		v4 -> {new2}
+
+BB: 5 to 6
+
+		v4 -> {new2}
+
+BB: 4 to 6
+
+		v4 -> {new2}
+
+BB: 6 to 7
+
+		v4 -> {new2}
+
+		v7 -> {null, new2}
+
+BB: 7 to 8
+
+		v4 -> {new2}
+
+		v7 -> {null, new2}
+

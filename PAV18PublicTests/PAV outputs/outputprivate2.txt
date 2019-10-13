@@ -1,0 +1,40 @@
+BB11 -> BB12:
+
+BB12 -> BB13:
+
+BB7 -> BB8:
+
+BB3 -> BB4:
+v3 -> {[new0]}
+v5 -> {[new4]}
+
+BB8 -> BB12:
+
+BB5 -> BB6:
+v3 -> {[new0]}
+v5 -> {[new4]}
+
+BB6 -> BB7:
+v3 -> {[new0]}
+v5 -> {[new4]}
+
+BB7 -> BB9:
+
+BB0 -> BB1:
+
+BB1 -> BB2:
+v3 -> {[new0]}
+
+BB2 -> BB3:
+v3 -> {[new0]}
+
+BB4 -> BB5:
+v3 -> {[new0]}
+v5 -> {[new4]}
+
+BB9 -> BB10:
+
+BB13 -> BB14:
+
+BB10 -> BB11:
+

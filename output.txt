@@ -1,0 +1,136 @@
+Node: < Application, LTestCases/PublicTests, main([Ljava/lang/String;)V > Context: Everywhere
+Node: < Application, LTestCases/Test1, <init>()V > Context: Everywhere
+Node: < Application, LTestCases/Test1, foo()V > Context: Everywhere
+Node: < Application, LTestCases/Test2, <init>()V > Context: Everywhere
+Node: < Application, LTestCases/Test2, array()V > Context: Everywhere
+Node: < Application, LTestCases/Node, <init>()V > Context: Everywhere
+Node: < Application, LTestCases/Data, <init>()V > Context: Everywhere
+Node: < Application, LTestCases/Test1, bar(LTestCases/Node;LTestCases/Data;)LTestCases/Data; > Context: Everywhere
+Node: < Application, LTestCases/PublicTests, <init>()V > Context: Everywhere
+The IR of method TestCases.Test1.foo()V is:
+< Application, LTestCases/Test1, foo()V >
+CFG:
+BB0[-1..-2]
+    -> BB1
+BB1[0..0]
+    -> BB2
+    -> BB12
+BB2[1..2]
+    -> BB3
+    -> BB12
+BB3[3..4]
+    -> BB4
+    -> BB12
+BB4[5..6]
+    -> BB5
+    -> BB12
+BB5[7..11]
+    -> BB6
+    -> BB12
+BB6[12..13]
+    -> BB7
+    -> BB12
+BB7[14..15]
+    -> BB8
+    -> BB12
+BB8[16..17]
+    -> BB9
+    -> BB12
+BB9[18..19]
+    -> BB10
+    -> BB12
+BB10[20..24]
+    -> BB11
+    -> BB12
+BB11[25..26]
+    -> BB12
+BB12[-1..-2]
+Instructions:
+BB0
+BB1
+0   v3 = new <Application,LTestCases/Node>@0 (line 9)
+BB2
+2   invokespecial < Application, LTestCases/Node, <init>()V > v3 @4 exception:v4(line 9)
+BB3
+4   v5 = new <Application,LTestCases/Data>@8 (line 10)
+BB4
+6   invokespecial < Application, LTestCases/Data, <init>()V > v5 @12 exception:v6(line 10)
+BB5
+11   v8 = invokevirtual < Application, LTestCases/Test1, bar(LTestCases/Node;LTestCases/Data;)LTestCases/Data; > v1,v3,v5 @19 exception:v7(line 11) {1=[this], 3=[n1], 5=[d1a]}
+BB6
+13   v9 = new <Application,LTestCases/Node>@23(line 13)
+BB7
+15   invokespecial < Application, LTestCases/Node, <init>()V > v9 @27 exception:v10(line 13)
+BB8
+17   v11 = new <Application,LTestCases/Data>@32(line 14)
+BB9
+19   invokespecial < Application, LTestCases/Data, <init>()V > v11 @36 exception:v12(line 14)
+BB10
+24   v14 = invokevirtual < Application, LTestCases/Test1, bar(LTestCases/Node;LTestCases/Data;)LTestCases/Data; > v1,v9,v11 @46 exception:v13(line 15) {1=[this], 9=[n2], 11=[d1b]}
+BB11
+26   return                                  (line 16)
+BB12
+
+BB2 -> BB3:
+v3 -> {[new0]}
+
+BB11 -> BB12:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+v9 -> {[new13]}
+v11 -> {[new17]}
+v14 -> {[new24]}
+
+BB5 -> BB6:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+
+BB1 -> BB2:
+v3 -> {[new0]}
+
+BB8 -> BB9:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+v9 -> {[new13]}
+v11 -> {[new17]}
+
+BB0 -> BB1:
+
+BB6 -> BB7:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+v9 -> {[new13]}
+
+BB7 -> BB8:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+v9 -> {[new13]}
+
+BB9 -> BB10:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+v9 -> {[new13]}
+v11 -> {[new17]}
+
+BB4 -> BB5:
+v3 -> {[new0]}
+v5 -> {[new4]}
+
+BB10 -> BB11:
+v3 -> {[new0]}
+v5 -> {[new4]}
+v8 -> {[new11]}
+v9 -> {[new13]}
+v11 -> {[new17]}
+v14 -> {[new24]}
+
+BB3 -> BB4:
+v3 -> {[new0]}
+v5 -> {[new4]}
+

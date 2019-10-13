@@ -1,0 +1,107 @@
+Columns:
+
+c0: {}
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}}
+c2: {v2 -> {insert.new3}}
+
+
+
+
+
+foo3:
+
+
+
+
+BB3 -> BB4:
+
+c0: {v3 -> {foo3.new0}, v5 -> {null}, foo3.new0.next -> {null}}
+
+
+BB2 -> BB3:
+
+c0: {v3 -> {foo3.new0}}
+
+
+BB0 -> BB1:
+
+c0: {}
+
+
+BB5 -> BB6:
+
+c0: {}
+
+
+BB1 -> BB2:
+
+c0: {v3 -> {foo3.new0}}
+
+
+BB4 -> BB5:
+
+c0: {v3 -> {foo3.new0}, v5 -> {null}, foo3.new0.next -> {null, insert.new3}, insert.new3.next -> {insert.new3}}
+
+
+insert:
+
+
+
+
+BB1 -> BB6:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}}
+
+c2: {v2 -> {insert.new3}}
+
+
+BB1 -> BB2:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}}
+
+c2: {v2 -> {insert.new3}}
+
+
+BB4 -> BB5:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}, v6 -> {insert.new3}, insert.new3.next -> {insert.new3}}
+
+c2: {v2 -> {insert.new3}, v6 -> {insert.new3}, foo3.new0.next -> {null}}
+
+
+BB0 -> BB1:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}}
+
+c2: {v2 -> {insert.new3}}
+
+
+BB5 -> BB6:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null, insert.new3}, v6 -> {insert.new3}, insert.new3.next -> {insert.new3}}
+
+c2: {v2 -> {insert.new3}, v6 -> {insert.new3}, foo3.new0.next -> {null}, insert.new3.next -> {insert.new3}}
+
+
+BB2 -> BB3:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}, v6 -> {insert.new3}}
+
+c2: {v2 -> {insert.new3}, v6 -> {insert.new3}}
+
+
+BB3 -> BB4:
+
+c1: {v2 -> {foo3.new0}, foo3.new0.next -> {null}, v6 -> {insert.new3}}
+
+c2: {v2 -> {insert.new3}, v6 -> {insert.new3}}
+
+
+BB6 -> BB7:
+
+c1: {}
+
+c2: {}
+
+
+
